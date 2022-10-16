@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 //LoginForm.js: Replace the loginUser() functionality imported from the API file with the LOGIN_USER mutation functionality.
-import { useMutation } from '@apollo/client';
+import { useMutation } from '@apollo/react-hooks';
 import { LOGIN_USER } from '../utils/mutations';
 import Auth from '../utils/auth';
 
